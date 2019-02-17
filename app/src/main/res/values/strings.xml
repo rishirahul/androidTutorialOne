@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">AndroidTutorialOne</string>
+    <string name="title_activity_other_ui_elements">otherUiElements</string>
+    <string name="message_one">message_one</string>
+    <string name="Invoke_from_Java">Invoke_from_Java</string>
+    <string name="InvokefromXml">Invoke_from_Xml</string>
+    <string name="clickme">click Me</string>
+    <string name="your_message">your_message</string>
+    <string name="message_two">message_two</string>
+    <string name="NextPage">NextPage</string>
+    <string name="boy_image">boy_image</string>
+    <string name="girl_image">girl_image</string>
+    <string name="GoogleCodeLabs">GoogleCodeLabs</string>
+    <string name="zero">0</string>
+    <string name="toast">toast</string>
+    <string name="countup">countup</string>
+    <string name="toast_message">toast_message</string>
 </resources>
