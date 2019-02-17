@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton boy_imageButton;
     private final int REQUEST_CODE = 2;
     Button googleCodeLabs;
+    Button googleCodeLabs2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         girl_imageView = (ImageView) findViewById(R.id.girl_imageView);
         boy_imageButton = (ImageButton) findViewById(R.id.boy_imageButton);
         googleCodeLabs = (Button) findViewById(R.id.button_google_codelabs);
+        googleCodeLabs2 = (Button) findViewById(R.id.button_google_codelabs2);
 
         getInvokeFromJava.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +63,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent googleCodelabsOne = new Intent(MainActivity.this, google_codelab_one.class);
                 startActivity(googleCodelabsOne);
+            }
+        });
+
+        googleCodeLabs2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent googleCodelabsTwo = new Intent(MainActivity.this, google_codelab_two.class);
+                startActivity(googleCodelabsTwo);
+                startActivity(googleCodelabsTwo);
             }
         });
         // alert boy clicked
